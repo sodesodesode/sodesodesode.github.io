@@ -1,77 +1,166 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>袖浦のポートフォリオサイト</title>
-  <link rel="icon" href="https://github.com/sodesodesode/sodesodesode.github.io/blob/main/favicon.png">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中島菜の専門店 香里庵（かおりあん）</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div>
-          <a href="https://sodesodesode.github.io/">
-        <img
-        src="https://raw.githubusercontent.com/sodesodesode/sodesodesode.github.io/main/taro.png"
-        alt="袖浦のアイコン"
-        width="120"
-        height="120"
-        class="icon"></a>
-      </div>
-      <div>
-        <a href="https://sodesodesode.github.io/">
-          <img"><h1>袖浦智祐</h1></a>
-          <p>UI/UXデザイナー見習いです</p>
-          <ul>
-            <li>
-              <a href="#">
-                <img 
-                src="https://raw.githubusercontent.com/sodesodesode/sodesodesode.github.io/main/blog.png" 
-                alt="ブログアイコン"
-                width="20"
-                height="20">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img 
-                src="https://raw.githubusercontent.com/sodesodesode/sodesodesode.github.io/main/photos.png"
-                alt="写真アイコン"
-                width="20"
-                height="20">
-              </a>
-            </li>
-          </ul>
-      </div>      
-    </div>
-    
-  </header>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">
+                <a href="#">香里庵</a>
+                <span class="logo-sub">中島菜の専門店</span>
+            </h1>
+            <nav class="global-nav">
+                <ul>
+                    <li><a href="#about">中島菜とは</a></li>
+                    <li><a href="#products">商品展開</a></li>
+                    <li><a href="#news">お知らせ</a></li>
+                </ul>
+            </nav>
+            <a href="#shop" class="btn-shop">オンラインショップ</a>
+        </div>
+    </header>
 
-  <main>
-    <div class="container">
-      <a href="https://sodesodesode.github.io/"><p>HOME</p></a>
-      <h1>WORKS</h1>
-      <section>
-        <img
-          src="https://raw.githubusercontent.com/sodesodesode/sodesodesode.github.io/main/work1.png"
-          alt="勇者といえば"
-          width="400"
-          height="225">
-          <a href="https://sodesodesode.github.io/personal"><h2>sodesodesodeパーソナルページへ</h2></a>
-        <p>こちらのページで、予定表・ブログ・掲示板などを更新していきます</p>
-      </section>
-      
-      <section>
-      <h2></h2>
-        <a href="http://www.opentests.com"><p>あなたもキャリアアップを目指しましょう！パソコン能力検定はこちら</p></a>
-      </section>      
-    </div>
-  </main>
+    <!-- ヒーローセクション（この背景にご提示いただいた画像が入るイメージです） -->
+    <section class="hero-section" id="home">
+        <div class="hero-content">
+            <p class="hero-subtitle">能登の伝統野菜、力強い生命力。</p>
+            <h2 class="hero-title">自然の恵みを、<br>そのまま食卓へ。</h2>
+            <p class="hero-desc">無農薬栽培が可能で、機能性にも優れた能登野菜「中島菜」。<br>その瑞々しさと豊かな香りを、香里庵からお届けします。</p>
+            <a href="#products" class="btn-primary">商品を見る</a>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll</span>
+        </div>
+    </section>
 
-  <footer>
-    <small>/sodesodesode/sodesodesode.github.io/</small>
-  </footer>
+    <!-- アバウトセクション -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-badge">ABOUT NAKAJIMA-NA</span>
+                    <h2 class="section-title">血圧上昇を抑える、<br>能登の機能性健康野菜</h2>
+                    <p>石川県七尾市の中島町で古くから栽培されてきた「中島菜」は、能登の気候が育んだ伝統野菜の一つです。<br><br>特徴的なほろ苦さと辛味を持ち、血圧上昇を抑える効果がある成分を含むなど、健康に寄り添う機能性野菜として注目されています。<br>香里庵では、この中島菜をふんだんに使ったオリジナル商品をご提案しています。</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <!-- ダミー画像 -->
+                        <img src="https://images.unsplash.com/photo-1554508929-e889d81d604b?auto=format&fit=crop&q=80&w=600" alt="中島菜のイメージ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロダクトセクション -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <h2 class="section-title center">香里庵のオリジナル商品</h2>
+            <p class="section-desc center">中島菜の風味を活かした、体に優しい品々</p>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <img src="https://images.unsplash.com/photo-1582281295240-da2b4b45ce72?auto=format&fit=crop&q=80&w=400" alt="中島菜こんにゃく">
+                    </div>
+                    <div class="product-info">
+                        <h3>中島菜こんにゃく</h3>
+                        <p>中島菜の鮮やかな緑色と、独特の風味が香るヘルシーな逸品。</p>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <img src="https://images.unsplash.com/photo-1605696142145-93dfb3a97aa3?auto=format&fit=crop&q=80&w=400" alt="中島菜の佃煮">
+                    </div>
+                    <div class="product-info">
+                        <h3>中島菜の佃煮</h3>
+                        <p>ご飯のお供にぴったり。中島菜のほろ苦さが食欲をそそります。</p>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <img src="https://images.unsplash.com/photo-1628183185348-18e0018d960f?auto=format&fit=crop&q=80&w=400" alt="期間限定ギフト">
+                    </div>
+                    <div class="product-info">
+                        <h3>香里庵プレミアムギフト</h3>
+                        <p>大切な方への贈り物に。中島菜商品と厳選された能登の味覚の詰め合わせ。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center-btn-wrapper">
+                <a href="#shop" class="btn-secondary">全商品を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ニュースセクション -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="news-header">
+                <h2 class="section-title">店主のBlog・最新情報</h2>
+                <a href="#" class="news-link">一覧を見る</a>
+            </div>
+            <ul class="news-list">
+                <li>
+                    <a href="#">
+                        <time datetime="2024-09-13">2024年09月13日</time>
+                        <span class="news-title">プレミアムギフト（香里庵プレミアム）のお知らせ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <time datetime="2024-01-31">2024年01月31日</time>
+                        <span class="news-title">営業再開いたしました</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <time datetime="2023-09-15">2023年09月15日</time>
+                        <span class="news-title">中能登産どぶろく仕立てのえいひれはいかがですか</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2>香里庵</h2>
+                    <p>石川県七尾市 中島菜の専門店</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">能登野菜 中島菜とは</a></li>
+                        <li><a href="#">香里庵の中島菜商品</a></li>
+                        <li><a href="#">その他の香里庵商品</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">店舗へのアクセス</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="#">特定商取引法に基づく表記</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 香里庵 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
