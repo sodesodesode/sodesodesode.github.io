@@ -487,6 +487,13 @@ a {
 /* Responsive */
 @media (max-width: 768px) {
     .hero-title { font-size: 2.5rem; }
+    
+    /* スマホ表示時のヒーロー画像の見え方・ピント位置の調整 */
+    .hero-section {
+        background-attachment: scroll; /* スマホ特有の背景巨大化・ピンボケを防ぐ */
+        background-position: 35% center; /* ピントが合う位置に合わせて数値を調整してください（PC版は15%が入っています） */
+    }
+    
     .about-grid { grid-template-columns: 1fr; }
     .footer-top { flex-direction: column; gap: 40px; }
     .global-nav { display: none; }
